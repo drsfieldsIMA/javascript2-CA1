@@ -1,0 +1,238 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --primary-colour: blue;
+}
+
+body {
+  background-image: radial-gradient(circle at center, #efefef, #e0cba8);
+  font-family: sans-serif;
+  padding: 2rem;
+  padding-top: 0.2rem;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: #9999ff;
+}
+
+h2 {
+  font-size: 1.05rem;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 0.65rem;
+}
+
+.book-disc {
+  font-size: 0.75rem;
+}
+
+label {
+  display: block;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form > div {
+  margin-bottom: 1rem;
+}
+
+form input {
+  width: 100%;
+  padding: 0.4rem;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  background: var(--primary-colour);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #000085;
+}
+
+.breadcrumb-item {
+  padding-left: 35px !important;
+}
+
+span {
+  color: lime;
+  font-weight: 700;
+}
+
+a.menu {
+  color: var(--primary-colour);
+  padding-right: 1rem;
+  text-decoration: underline;
+  color: var(--primary-colour);
+}
+
+a.active.menu {
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.product-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-width: 98% !important;
+  margin: 0 auto;
+}
+
+.book-container {
+  display: block;
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.message {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid grey;
+  color: grey;
+}
+
+.message.error {
+  border-color: red;
+  color: white;
+  background: red;
+}
+
+.message.warning {
+  border-color: orange;
+  color: white;
+  background: orange;
+}
+
+.message.success {
+  border-color: green;
+  color: white;
+  background: green;
+}
+
+.input-container {
+  position: relative;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 0.85rem;
+}
+
+.form-error {
+  position: absolute;
+  width: 380px;
+  top: 20px;
+  left: 5px;
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  display: none;
+  color: red;
+  background-color: white;
+  border: 1px black solid;
+  font-size: 0.75rem;
+}
+
+input:focus {
+  z-index: 100;
+}
+
+#logout {
+  width: auto;
+  background-color: #28a428;
+}
+
+#logout:hover {
+  background-color: black;
+}
+
+.disc__container {
+  width: 80%;
+  text-align: justify;
+}
+
+i {
+  position: absolute;
+  right: 2px;
+  bottom: 0px;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+i.fa {
+  color: darkred;
+}
+
+i.far {
+  background-color: white;
+}
+
+.search {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  min-height: 43px;
+}
+
+input[type=text] {
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 200px;
+  border: black 4px solid;
+}
+
+.search-block {
+  display: inline-block;
+  min-width: 220px;
+}
+
+.reset {
+  display: inline-block;
+  background-color: darkslategrey;
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  padding: 0.5rem;
+  min-height: 43px;
+  max-width: 90px;
+}
+
+.reset:hover {
+  cursor: pointer;
+  background-color: forestgreen;
+}
+/*# sourceMappingURL=style.css.map */
